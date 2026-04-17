@@ -3,7 +3,7 @@
 start(){
   while true
   do
-  printf "Welcome to Ethio Gebeta packages:\n
+  printf "\nWelcome to Ethio Gebeta packages:\n
     1. Internet\n
     2. Voice\n
     3. Social Media\n
@@ -30,7 +30,6 @@ package() {
     1. Daily\n
     2. Weekly\n
     3. Monthly\n
-
     *. Back\n
     **. Main Menu\n
     "
