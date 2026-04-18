@@ -1,10 +1,10 @@
 #!/bin/bash
 
 source "./toWhom.sh"
-source "./package.sh"
+source "./packages.sh"
 source "./dailyPackages.sh"
-source "./weeklyPackage.sh"
-source "./monthlyPackage.sh"
+source "./weeklyPackages.sh"
+source "./monthlyPackages.sh"
 
 start(){
   while true
@@ -21,7 +21,9 @@ start(){
     case "$packageType" in
      0) echo "Goodbye"
       exit ;;
-     1|2|3|4) toWhom  ;;
+     1|2|3|4)
+       clear 
+       toWhom  ;;
      *) echo "Wrong choice" ;;
     esac
   done

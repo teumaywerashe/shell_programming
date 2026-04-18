@@ -15,14 +15,19 @@ dailyInternetPackage(){
     read -p "please enter the number:"
   fi
   case "$choice" in 
-    1) printf "\nYou have successifully charged daily 100MB internet package.\n"
+    1)clear
+     printf "\nYou have successifully charged daily 100MB internet package.\n"
     exit ;;
-    2) printf "\nYou have successifully charged daily 200MB internet package.\n" 
+    2)clear
+     printf "\nYou have successifully charged daily 200MB internet package.\n" 
      exit ;;
-    3) printf "\nYou have successifully charged daily 300MB internet package.\n" 
+    3)clear
+     printf "\nYou have successifully charged daily 300MB internet package.\n" 
      exit ;;
-    *) package ;;
-    **) start ;;
+    *) clear
+     package ;;
+    **)clear
+     start ;;
     0) exit 
   esac
 
@@ -43,11 +48,14 @@ dailyVoicePackage(){
     read -p "please enter the number:"
   fi
   case "$choice" in 
-    1) printf "\nYou have successifully charged daily 20 Min + 10 Min Night Bonus"
+    1)clear
+     printf "\nYou have successifully charged daily 20 Min + 10 Min Night Bonus"
       exit ;;
-    2) printf "\nYou have successifully charged daily 42 Min + 21 Min Night Bonus \n"
+    2)clear
+     printf "\nYou have successifully charged daily 42 Min + 21 Min Night Bonus \n"
       exit ;;
-    3) printf "\nYou have successifully charged daily 65 Min + 44 Min Night Bonus \n"
+    3)clear
+     printf "\nYou have successifully charged daily 65 Min + 44 Min Night Bonus \n"
       exit ;;
     *) package ;;
     **) start ;;
@@ -71,13 +79,17 @@ dailySocialMediaPackage(){
     read -p "please enter the number:"
   fi
   case "$choice" in 
-    1) printf "\nYou have successifully charged daily 1.2GB Telegram + WhatsApp package"
+    1)clear
+     printf "\nYou have successifully charged daily 1.2GB Telegram + WhatsApp package"
       exit ;;
-    2) printf "\nYou have successifully charged daily 2 GB fACEBOOK + YouTube + Tiktok package\n"
+    2)clear
+     printf "\nYou have successifully charged daily 2 GB fACEBOOK + YouTube + Tiktok package\n"
       exit ;;
   
-    *) package ;;
-    **) start ;;
+    *)clear
+     package ;;
+    **)clear
+     start ;;
     0) exit 
   esac    
  return 0
@@ -98,14 +110,19 @@ dailyVoicePlusSocialMediaPackage(){
     read -p "please enter the number:"
   fi
   case "$choice" in 
-    1) printf "\nYou have successifully charged daily 20Min+200MB package."
+    1)clear
+     printf "\nYou have successifully charged daily 20Min+200MB package."
       exit ;;
-    2) printf "\nYou have successifully charged daily 30Min+420MB\n package."
+    2)clear
+     printf "\nYou have successifully charged daily 30Min+420MB\n package."
       exit ;;
-    3) printf "\nYou have successifully charged daily 50Min+850MB\n package."
+    3)clear
+     printf "\nYou have successifully charged daily 50Min+850MB\n package."
       exit ;;
-    *) package ;;
-    **) start ;;
+    *)clear
+     package ;;
+    **)clear
+     start ;;
     0) exit 
   esac    
  return 0

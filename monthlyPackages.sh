@@ -15,14 +15,19 @@ monthlyInternetPackage(){
     read -p "please enter the number:"
   fi
   case "$choice" in 
-    1) printf "\nYOu have successifully charged 650MB"
+    1)clear
+     printf "\nYou have successifully charged 650MB"
       exit ;;
-    2) printf "\nYOu have successifully charged 1GB"
+    2)clear
+     printf "\nYou have successifully charged 1GB"
       exit ;;
-    3) printf "\nYOu have successifully charged 2.5GB"
+    3)clear
+     printf "\nYou have successifully charged 2.5GB"
       exit ;;
-    *) package ;;
-    **) start ;;
+    *)clear
+     package ;;
+    **)clear
+     start ;;
     0) exit 
   esac
 
@@ -44,14 +49,19 @@ monthlyVoicePackage(){
     read -p "please enter the number:"
   fi
   case "$choice" in 
-    1) printf "\nYou have successifully 20 Min + 10 Min Night Bonus"
+    1)clear
+     printf "\nYou have successifully 20 Min + 10 Min Night Bonus"
       exit ;;
-    2) printf "\nYou have successifully 42 Min + 21 Min Night Bonus\n"
+    2)clear
+     printf "\nYou have successifully 42 Min + 21 Min Night Bonus\n"
       exit ;;
-    3) printf "\nYou have successifully 65 Min + 44 Min Night Bonus\n"
+    3)clear
+     printf "\nYou have successifully 65 Min + 44 Min Night Bonus\n"
       exit ;;
-    *) package ;;
-    **) start ;;
+    *)clear
+     package ;;
+    **)clear
+     start ;;
     0) exit 
   esac    
  return 0
@@ -71,13 +81,17 @@ monthlySocialMediaPackage(){
     read -p "please enter the number:"
   fi
   case "$choice" in 
-    1) printf "\nYou have successifully 20 Min + 10 Min Night Bonus"
+    1)clear
+     printf "\nYou have successifully 20 Min + 10 Min Night Bonus"
       exit ;;
-    2) printf "\nYou have successifully 42 Min + 21 Min Night Bonus\n"
+    2)clear
+     printf "\nYou have successifully 42 Min + 21 Min Night Bonus\n"
       exit ;;
     
-    *) package ;;
-    **) start ;;
+    *)clear
+     package ;;
+    **)clear
+     start ;;
     0) exit 
   esac    
  return 0
@@ -98,14 +112,19 @@ monthlyVoicePlusSoicailMediaPackage(){
     read -p "please enter the number:"
   fi
   case "$choice" in 
-    1) printf "\nYou have successifully 20 Min + 10 Min Night Bonus"
+    1)clear
+     printf "\nYou have successifully 20 Min + 10 Min Night Bonus"
       exit ;;
-    2) printf "\nYou have successifully 42 Min + 21 Min Night Bonus\n"
+    2)clear
+     printf "\nYou have successifully 42 Min + 21 Min Night Bonus\n"
       exit ;;
-    3) printf "\nYou have successifully 65 Min + 44 Min Night Bonus\n"
+    3)clear
+     printf "\nYou have successifully 65 Min + 44 Min Night Bonus\n"
       exit ;;
-    *) package ;;
-    **) start ;;
+    *)clear
+     package ;;
+    **)clear
+     start ;;
     0) exit 
   esac    
  return 0

@@ -23,9 +23,13 @@ toWhom() {
     read -p "Enter your choice (or 0 to exit): " to
 
     case "$to" in
-    1 | 2 ) package ;;
+    1 | 2 ) 
+     clear 
+     package ;;
     0 ) exit;;
-    "**" ) start ;;
+    "**" ) 
+     clear 
+     start ;;
 
     * ) echo "Wrong choice\n"
 
