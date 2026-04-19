@@ -12,8 +12,20 @@ dailyInternetPackage(){
   read -p "Enter Your choice (0 to exit):" choice
 
   if (( to == 2)); then 
-    read -p "please enter the number:"
+
+          
+   
+      printf "**. Main Menu\n"
+
+      read -p "please enter the number:" number
+
+        
   fi
+  case $number in  
+  "**") 
+      clear
+      start
+  esac
   case "$choice" in 
     1)clear
      printf "\nYou have successifully charged daily 100MB internet package.\n"
@@ -45,8 +57,20 @@ dailyVoicePackage(){
   read -p "Enter Your choice (0 to exit):" choice
 
   if (( to == 2)); then 
-    read -p "please enter the number:"
+
+          
+       
+      printf "**. Main Menu\n"
+
+      read -p "please enter the number:" number
+
+   
   fi
+  case $number in  
+  "**") 
+    clear
+    start
+  esac
   case "$choice" in 
     1)clear
      printf "\nYou have successifully charged daily 20 Min + 10 Min Night Bonus"
@@ -58,7 +82,9 @@ dailyVoicePackage(){
      printf "\nYou have successifully charged daily 65 Min + 44 Min Night Bonus \n"
       exit ;;
     *) package ;;
-    **) start ;;
+    **) 
+      clear
+      start ;;
     0) exit 
   esac    
  return 0
@@ -75,9 +101,17 @@ dailySocialMediaPackage(){
 
   read -p "Enter Your choice (0 to exit):" choice
 
-  if (( to == 2)); then 
-    read -p "please enter the number:"
+  if (( to == 2)); then     
+      clear 
+      printf "**. Main Menu\n"
+      read -p "please enter the number:" number
+    
   fi
+  case $number in  
+  "**") 
+    clear
+    start
+  esac
   case "$choice" in 
     1)clear
      printf "\nYou have successifully charged daily 1.2GB Telegram + WhatsApp package"
@@ -106,9 +140,16 @@ dailyVoicePlusSocialMediaPackage(){
 
   read -p "Enter Your choice (0 to exit):" choice
 
-  if (( to == 2)); then 
-    read -p "please enter the number:"
-  fi
+   if (( to == 2)); then 
+        clear 
+        printf "**. Main Menu\n"
+        read -p "please enter the number:" number        
+   fi
+  case $number in  
+  "**") 
+    clear
+    start
+  esac
   case "$choice" in 
     1)clear
      printf "\nYou have successifully charged daily 20Min+200MB package."

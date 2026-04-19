@@ -11,9 +11,21 @@ monthlyInternetPackage(){
 
   read -p "Enter Your choice (0 to exit):" choice
 
-  if (( to == 2)); then 
-    read -p "please enter the number:"
+   if (( to == 2)); then 
+
+          
+      clear 
+      printf "**. Main Menu\n"
+
+      read -p "please enter the number:" number
+
+   
   fi
+  case $number in  
+    **) 
+      clear
+      start
+  esac
   case "$choice" in 
     1)clear
      printf "\nYou have successifully charged 650MB"
@@ -45,9 +57,21 @@ monthlyVoicePackage(){
 
   read -p "Enter Your choice (0 to exit):" choice
 
-  if (( to == 2)); then 
-    read -p "please enter the number:"
+   if (( to == 2)); then 
+
+          
+      clear 
+      printf "**. Main Menu\n"
+
+      read -p "please enter the number:" number
+
+   
   fi
+  case $number in  
+    **) 
+      clear
+      start
+  esac
   case "$choice" in 
     1)clear
      printf "\nYou have successifully 20 Min + 10 Min Night Bonus"
@@ -77,9 +101,21 @@ monthlySocialMediaPackage(){
 
   read -p "Enter Your choice (0 to exit):" choice
 
-  if (( to == 2)); then 
-    read -p "please enter the number:"
+   if (( to == 2)); then 
+
+            
+        clear 
+        printf "**. Main Menu\n"
+
+        read -p "please enter the number:" number
+
+   
   fi
+  case $number in  
+    **) 
+    clear
+    start
+  esac
   case "$choice" in 
     1)clear
      printf "\nYou have successifully 20 Min + 10 Min Night Bonus"
@@ -108,9 +144,21 @@ monthlyVoicePlusSoicailMediaPackage(){
 
   read -p "Enter Your choice (0 to exit):" choice
 
-  if (( to == 2)); then 
-    read -p "please enter the number:"
+   if (( to == 2)); then 
+
+    
+clear 
+printf "**. Main Menu\n"
+
+read -p "please enter the number:" number
+
+   
   fi
+  case $number in  
+  "**") 
+clear
+start
+  esac
   case "$choice" in 
     1)clear
      printf "\nYou have successifully 20 Min + 10 Min Night Bonus"
