@@ -24,7 +24,10 @@ start(){
      1|2|3|4)
        clear 
        toWhom  ;;
-     *) echo "Wrong choice" ;;
+     *) echo 
+     clear
+     echo "wrong option"
+     ;;
     esac
   done
 }
